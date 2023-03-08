@@ -1,0 +1,18 @@
+/* Barra de navegación */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ADAPTABLE RESPONSIVO */
+/* Vamos a ocultar el icono para dispositivos pequeños, solo se muestra desde md */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
